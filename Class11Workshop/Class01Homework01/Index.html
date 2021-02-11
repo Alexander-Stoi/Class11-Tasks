@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <style>
+        table,
+        td,
+        th,
+        tr {
+
+            border: solid black; 
+        }
+    </style> -->
+    <!-- <div id="test">njfrnjtgtnjrdtg</div> -->
+    <div id="displayDIV">
+        <fieldset >
+            <legend>Register</legend>
+            <form>
+                <label>Username</label>
+                <input id="usernameRegister" type="text" placeholder="Enter Username"><br />
+                <label>Password</label>
+                <input id="passwordRegister" type="password" placeholder="Enter Password"><br />
+                <input type="button" id="registerBtn" value="Register"><br />
+            </form>
+        </fieldset>
+
+        <br /><br />
+
+        <fieldset class="hide">
+            <legend>Login</legend>
+            <form>
+                <label>Username</label>
+                <input id="usernameLogin" type="text" placeholder="Enter Username"><br />
+                <label>Password</label>
+                <input id="passwordLogin" type="password" placeholder="Enter Password"><br />
+                <input type="button" id="loginBtn" value="Login"><br />
+                <!-- <input type="button" id="checkAdmin" value="Check if Admin"><br /> -->
+            </form>
+        </fieldset>
+    </div>
+
+    <br /><br />
+
+
+    <h2 id="notRegisteredMessage"></h2>
+    <h3 id="greeting"></h3> <br /><br />
+    <table id="test"></table>
+    <button id="logOut" hidden >Log out</button><br /><br /> 
+
+
+    <!-- <button id="checkAdmin">Chech if Admin</button><br /><br /> -->
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
